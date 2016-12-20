@@ -2,6 +2,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	border-top: 1px solid $light-gray;
 	border-bottom: 2px solid black;
 	position: relative;
 }
@@ -29,6 +30,10 @@
 	display: flex;
 }
 
+.language-nav li:first-of-type a {
+	font-weight: bold;
+}
+
 .logo {
 	max-width: 400px;
 	margin-top: 10px;
@@ -42,9 +47,17 @@
 	margin-bottom: 10px;
 }
 
+.masthead-links ul {
+	display: flex;
+}
+
 .masthead-links li {
 	margin-left: 10px;
 	border-right: 1px solid $light-gray;
+}
+
+.masthead-links li:last-of-type {
+	border-right: none;
 }
 
 .masthead-links button {
@@ -53,6 +66,7 @@
 	color: #000;
 	font-weight: normal;
 	border: none;
+	// text-decoration: underline;
 }
 
 .masthead-links button:hover {
@@ -60,7 +74,7 @@
 }
 
 .masthead-links a,
-.masthead-links button, 
+.masthead-links button,
 .masthead-links time {
 	margin-right: 10px;
 }
