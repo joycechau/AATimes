@@ -1,0 +1,150 @@
+.main-content {
+  margin-top: 20px;
+}
+
+.news-content {
+  display: flex;
+  // align-items: center;
+  flex-direction: column;
+}
+
+.news-content iframe {
+  max-width: 560px;
+  align-self: center;
+}
+
+.video-message {
+  align-self: flex-start;
+  margin: 15px 0;
+}
+
+.news-content ul li strong {
+  font-weight: bold;
+  display: flex;
+  font-size: 14px;
+}
+.news-content ul li small {
+  display: flex;
+  color: $gray;
+  margin: 5px 0;
+}
+
+.news-content ul li {
+  margin: 5px 0;
+}
+
+.news-content hr {
+  width: 200px;
+}
+
+.news-content p {
+  margin: 10px 0;
+}
+
+.side-news strong {
+  font-weight: bold;
+  display: flex;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.side-news small {
+  display: flex;
+  color: $gray;
+  margin: 5px 0;
+}
+
+.side-news ul {
+  list-style-type: disc;
+  padding-left: 15px;
+}
+
+.side-news li {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.side-news > a {
+  color: $blue;
+}
+
+
+.opinion strong {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.opinion > strong {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.opinion span {
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.opinion p {
+  line-height: 1.3;
+}
+
+.contributors ul {
+  list-style-type: disc;
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.contributors ul li {
+  margin: 5px 0;
+}
+
+.operations small {
+  color: $gray;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.operations img {
+  height: 100px;
+  object-fit: cover;
+}
+
+.subscribe-form {
+  margin-top: 20px;
+}
+
+.subscribe-form p {
+  margin: 10px;
+  color: $gray;
+  font-size: 10px;
+  text-align: center;
+}
+
+.subscribe-form input[type="text"] {
+  border: 1px solid $gray;
+  color: $gray;
+  padding: 0 10px;
+  height: 28px;
+  width: 75%;
+  float: left;
+}
+
+.subscribe-form input[type="submit"] {
+  font-family: $sans-serif;
+  text-align: center;
+  width: 25%;
+  background-color: $blue;
+  height: 28px;
+  color: white;
+  padding: 0 5px;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+// .news-content ul li strong a:hover {
+//   font-weight: bold;
+//   display: flex;
+// }
